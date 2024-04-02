@@ -32,4 +32,7 @@
     <project path="packages/apps/RealmeParts" name="android_packages_apps_RealmeParts" remote="even" revision="aosp12"/>
     <project path="vendor/realme/even-ims" name="vendor_oplus_even-ims" remote="eun" revision="twelve-rmui2"/>
 
+
+    <!-- Sepolicy -->
+    <project path="device/mediatek/sepolicy" name="android_device_mediatek_sepolicy" remote="gh/LineageOS" revision="lineage-17.1"/>
 </manifest>
