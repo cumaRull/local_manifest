@@ -34,5 +34,5 @@
 
 
     <!-- Sepolicy -->
-    <project path="device/mediatek/sepolicy" name="LineageOS/android_device_mediatek_sepolicy" remote="gh" revision="lineage-17.1"/>
-</manifest>
+    <project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" remote="gh" revision="lineage-21"/>
+    </manifest>
