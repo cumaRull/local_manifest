@@ -20,7 +20,7 @@
                     fetch="https://github.com/"
                     clone-depth="1" />         
    <!--Tree -->
-   <project path="device/realme/even" name="device_realme_even-oss" remote="yuzumi" revision="twelve-rui2" />
+   <project path="device/realme/even" name="device_realme_even-oss" remote="yuzumi" revision="wip" />
    <!--Kernel -->
   <project path="kernel/realme/even" name="kernel_realme_even" remote="eun" revision="OSS-RUI2" />
    <!--Vendor -->
@@ -34,5 +34,5 @@
 
 
     <!-- Sepolicy -->
-    <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="yuzumi" revision="lineage-21"/>
+    <project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" remote="gh" revision="lineage-21"/>
     </manifest>
