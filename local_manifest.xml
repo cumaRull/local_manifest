@@ -14,7 +14,7 @@
                     fetch="https://github.com/KharaMe-devices"
                     clone-depth="1" />
     <remote name="sh"
-                    fetch="https://github.com/realme-mt6785-devs"
+                    fetch="https://github.com/yuzumi86"
                     clone-depth="1" />
       <remote name="gh"
                     fetch="https://github.com/"
@@ -22,7 +22,7 @@
    <!--Tree -->
    <project path="device/realme/even" name="device_realme_even" remote="cumaRull" revision="master" />
    <!--Kernel -->
-  <project path="kernel/realme/even" name="kernel_realme_even" remote="even" revision="even-rmui2" />
+  <project path="kernel/realme/even" name="kernel_realme_even" remote="sh" revision="OSS-R" />
    <!--Vendor -->
    <project path="vendor/realme/even" name="vendor_realme_even" remote="cumaRull" revision="rmui2" />
 
