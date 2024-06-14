@@ -4,6 +4,10 @@
                  fetch="https://github.com/Realme-C25-Series-Development"
                  revision="1" />
 
+    <remote  name="clang"
+                 fetch="https://gitlab.com/clangsantoni"
+                 revision="1" />
+
      <remote name="cumaRull"
                    fetch="https://github.com/cumaRull"
                    clone-depth="1" />
@@ -13,7 +17,7 @@
       <remote name="kharame-devices"
                     fetch="https://github.com/KharaMe-devices"
                     clone-depth="1" />
-    <remote name="sh"
+    <remote name="yuzu"
                     fetch="https://github.com/yuzumi86"
                     clone-depth="1" />
       <remote name="gh"
@@ -22,9 +26,12 @@
    <!--Tree -->
    <project path="device/realme/even" name="device_realme_even" remote="cumaRull" revision="master" />
    <!--Kernel -->
-  <project path="kernel/realme/even" name="kernel_realme_even" remote="even" revision="even-rmui2" />
+  <project path="kernel/realme/even" name="kernel_realme_even" remote="yuzu" revision="OSS-R" />
    <!--Vendor -->
    <project path="vendor/realme/even" name="vendor_realme_even" remote="cumaRull" revision="rmui2" />
+    <!-- Clang -->
+    <project path="prebuilt/clang/zycClang" name="zyc_clang" remote="clang" revision="14" />
+    
 
 
    <!-- Common -->
