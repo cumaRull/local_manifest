@@ -17,19 +17,19 @@
       <remote name="kharame-devices"
                     fetch="https://github.com/KharaMe-devices"
                     clone-depth="1" />
-    <remote name="yuzu"
-                    fetch="https://github.com/yuzumi86"
+    <remote name="sar"
+                    fetch="https://github.com/sarthakroy2002"
                     clone-depth="1" />
       <remote name="gh"
                     fetch="https://github.com/"
                     clone-depth="1" />         
    <!--Tree -->
-   <project path="device/realme/even" name="android_device_realme_even" remote="cumaRull" revision="twelve-prebuilt" />
+   <project path="device/realme/RMX2020" name="device_realme_RMX2020" remote="sar" revision="arrow-13.1-rui2" />
 
     <!-- Kernel -->
-      <project path="kernel/realme/even" name="kernel_realme_even" remote="even" revision="even-rmui2" />
+      <project path="kernel/realme/RMX2020" name="kernel_realme_RMX2020" remote="sar" revision="R" />
    <!--Vendor -->
-   <project path="vendor/realme/even" name="vendor_realme_even" remote="eun" revision="twelve-oss" />
+   <project path="vendor/realme/RMX2020" name="vendor_realme_RMX2020" remote="sar" revision="arrow-13.1-rui2" />
     <!-- Clang -->
     <project path="prebuilt/clang/proton" name="proton-clang" remote="clang" revision="master" />
     
@@ -38,6 +38,6 @@
    <!-- Common -->
     <project path="packages/apps/RealmeDirac" name="android_packages_apps_RealmeDirac"   remote="even" revision="lineage-19.0"/>
     <project path="packages/apps/RealmeParts" name="android_packages_apps_RealmeParts" remote="even" revision="aosp12"/>
-    <project path="vendor/realme/even-ims" name="android_vendor_realme_even-ims" remote="cumaRull" revision="thirteen-rmui2"/>
+    <project path="vendor/realme/RMX2020-ims" name="vendor_realme_RMX2020-ims" remote="sar" revision="arrow-13.1-rui2"/>
 
 </manifest>
