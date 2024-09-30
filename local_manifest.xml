@@ -10,6 +10,11 @@
     <remote name="eun"
                    fetch="https://github.com/eun0115"
                    clone-depth="1" />
+
+    <remote name="clang"
+                   fetch="https://github.com/kdragon"
+                   clone-depth="1" />
+    
       <remote name="kharame-devices"
                     fetch="https://github.com/KharaMe-devices"
                     clone-depth="1" />
@@ -26,6 +31,8 @@
    <!--Vendor -->
    <project path="vendor/realme/even" name="vendor_realme_even" remote="eun" revision="twelve-oss" />
 
+   <project path="prebuilt/clang/proton" name="proton-clang" remote="clang" revision="master" />
+    
 
    <!-- Common -->
     <project path="packages/apps/RealmeDirac" name="android_packages_apps_RealmeDirac"   remote="even" revision="lineage-18.1"/>
