@@ -12,7 +12,7 @@
                    clone-depth="1" />
 
     <remote name="clang"
-                   fetch="https://github.com/kdragon"
+                   fetch="https://github.com/crdroidandroid"
                    clone-depth="1" />
     
       <remote name="kharame-devices"
@@ -31,7 +31,7 @@
    <!--Vendor -->
    <project path="vendor/realme/even" name="vendor_realme_even" remote="eun" revision="twelve-oss" />
 
-   <project path="prebuilt/clang/proton" name="proton-clang" remote="clang" revision="master" />
+   <project path="prebuilt/clang/proton" name="android_prebuilts_clang_host_linux-x86_clang-6443078" remote="clang" revision="10.0" />
     
 
    <!-- Common -->
