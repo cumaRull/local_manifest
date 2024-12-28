@@ -11,25 +11,37 @@
      <remote name="cumaRull"
                    fetch="https://github.com/cumaRull"
                    clone-depth="1" />
-    <remote name="eun"
-                   fetch="https://github.com/eun0115"
+    <remote name="dt"
+                   fetch="https://github.com/hui-dumpyard"
                    clone-depth="1" />
       <remote name="kharame-devices"
                     fetch="https://github.com/KharaMe-devices"
                     clone-depth="1" />
     <remote name="sar"
-                    fetch="https://github.com/sarthakroy2002"
+                    fetch="https://github.com/LineageOS"
                     clone-depth="1" />
       <remote name="gh"
                     fetch="https://github.com/"
                     clone-depth="1" />         
    <!--Tree -->
-   <project path="device/realme/even" name="device_realme_even-rui3" remote="yuzumi" revision="main" />
+   <project path="device/realme/even" name="device_realme_even" remote="cumaRull" revision="main" />
 
    <!--Vendor -->
-   <project path="vendor/realme/even" name="vendor_realme_even_rui4" remote="cumaRull" revision="main" />
+   <project path="vendor/realme/even" name="vendor_realme_even" remote="dt" revision="thirteen" />
+    <!-- Kernel -->
+    <project path="kernel/realme/even" name="kernel_realme_even" remote="dt" revision="deprecated/android-4.14-stable" />
+    <!-- oplus -->
+    <project path="hardware/oplus" name="android_hardware_oplus" remote="sar" revision="lineage-21" />
+    <!-- mediatek -->
+    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="sar" revision="lineage-21" />
     <!-- Clang -->
+    <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="clang" revision="master" />
+   
 
+
+
+
+    
 
 
 
