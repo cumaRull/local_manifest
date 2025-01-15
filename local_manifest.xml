@@ -30,16 +30,11 @@
    <project path="vendor/realme/even" name="vendor_realme_even" remote="cumaRull" revision="rmui2" />
     <!-- Kernel -->
     <project path="kernel/realme/even" name="Realme-C25-Series-Development/kernel_realme_even" remote="gh" revision="even-rmui2" />
-    <!-- oplus -->
-    <project path="hardware/oplus" name="android_hardware_oplus" remote="sar" revision="lineage-21" />
-    <!-- mediatek -->
-    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="sar" revision="lineage-21" />
     <!-- Clang -->
     <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="clang" revision="master" />
-   
-
-
-
+    <!-- Common -->
+    <project path="vendor/realme/even-ims" name="Realme-C25-Series-Development/vendor_realme_even-ims" remote="gh" revision="even-rmui2" />
+    
 
     
 
