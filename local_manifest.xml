@@ -33,7 +33,7 @@
     <!-- Clang -->
     <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="clang" revision="master" />
     <!-- Common -->
-    <project path="vendor/realme/even-ims" name="Realme-C25-Series-Development/vendor_realme_even-ims" remote="gh" revision="even-rmui2" />
+    <project path="vendor/realme/even-ims" name="Realme-C25-Series-Development/vendor_realme_even-ims" remote="gh" revision="twelve-rmui2" />
     
 
     
