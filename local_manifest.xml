@@ -1,44 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote  name="yuzumi"
-                 fetch="https://github.com/yuzumi86"
-                 revision="1" />
-
-    <remote  name="clang"
-                 fetch="https://github.com/kdrag0n"
-                 revision="1" />
-
-     <remote name="cumaRull"
-                   fetch="https://github.com/cumaRull"
-                   clone-depth="1" />
-    <remote name="dt"
-                   fetch="https://github.com/hui-dumpyard"
-                   clone-depth="1" />
-      <remote name="kharame-devices"
-                    fetch="https://github.com/KharaMe-devices"
-                    clone-depth="1" />
-    <remote name="sar"
-                    fetch="https://github.com/LineageOS"
-                    clone-depth="1" />
-      <remote name="gh"
+    <remote name="gh"
                     fetch="https://github.com/"
                     clone-depth="1" />         
-   <!--Tree -->
-   <project path="device/realme/RMX3191" name="android_device_realme_RMX3191" remote="cumaRull" revision="master" />
-
-   <!--Vendor -->
-   <project path="vendor/realme/even" name="vendor_realme_even" remote="cumaRull" revision="rmui2" />
+    <!--Tree -->
+    <project path="device/realme/RMX2020" name="cumaRull/device_realme_RMX2020" remote="gh" revision="fifteen" />
+    <!--Vendor -->
+    <project path="vendor/realme/RMX2020" name="cumaRull/vendor_realme_RMX2020" remote="gh" revision="fifteen" />
     <!-- Kernel -->
-    <project path="kernel/realme/even" name="Realme-C25-Series-Development/kernel_realme_even" remote="gh" revision="even-rmui2" />
+    <project path="kernel/realme/RMX2020" name="cumaRull/kernel_realme_RMX2020" remote="gh" revision="fifteen" />
+    <!-- Vendor Ims -->
+    <project path="vendor/realme/RMX2020-ims" name="cumaRull/vendor_realme_RMX2020-ims" remote="gh" revision="fifteen" />
     <!-- Clang -->
-    <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="clang" revision="master" />
-    <!-- Common -->
-    <project path="vendor/realme/even-ims" name="Realme-C25-Series-Development/vendor_realme_even-ims" remote="gh" revision="twelve-rmui2" />
+    <project path="prebuilts/clang/host/linux-x86/proton-clang" name="kdrag0n/proton-clang" remote="gh" revision="master" />
+    <!-- Sepolicy vendor -->
+    <project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" remote="gh" revision="lineage-22.1" />
     
 
-    
-
-
-
-
-</manifest>
+    </manifest>
