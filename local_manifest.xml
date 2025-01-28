@@ -15,6 +15,9 @@
     <project path="prebuilts/clang/host/linux-x86/proton-clang" name="kdrag0n/proton-clang" remote="gh" revision="master" />
     <!-- Sepolicy vendor -->
     <project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" remote="gh" revision="lineage-22.1" />
+    <!-- Sepolicy vendor -->
+    <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="gh" revision="lineage-22.1" />
+    
     
 
     </manifest>
