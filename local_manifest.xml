@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+p0<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="gh"
                     fetch="https://github.com/"
                     clone-depth="1" />         
     <!--Tree -->
-    <project path="device/realme/RMX2020" name="cumaRull/device_realme_RMX2020" remote="gh" revision="fifteen" />
+    <project path="device/realme/RMX2020" name="cumaRull/device_realme_RMX2020" remote="gh" revision="cipher-fifteen" />
     <!--Vendor -->
     <project path="vendor/realme/RMX2020" name="cumaRull/vendor_realme_RMX2020" remote="gh" revision="fifteen" />
     <!-- Kernel -->
