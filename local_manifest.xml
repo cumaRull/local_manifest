@@ -4,20 +4,8 @@
                     fetch="https://github.com/"
                     clone-depth="1" />         
     <!--Tree -->
-    <project path="device/realme/RMX2020" name="cumaRull/device_realme_RMX2020" remote="gh" revision="fifteen" />
+    <project path="device/realme/even" name="cumaRull/device_realme_even" remote="gh" revision="wip" />
     <!--Vendor -->
-    <project path="vendor/realme/RMX2020" name="cumaRull/vendor_realme_RMX2020" remote="gh" revision="fifteen" />
-    <!-- Kernel -->
-    <project path="kernel/realme/RMX2020" name="cumaRull/kernel_realme_RMX2020" remote="gh" revision="fifteen" />
-    <!-- Vendor Ims -->
-    <project path="vendor/realme/RMX2020-ims" name="cumaRull/vendor_realme_RMX2020-ims" remote="gh" revision="fifteen" />
-    <!-- Clang -->
-    <project path="prebuilts/clang/host/linux-x86/proton-clang" name="kdrag0n/proton-clang" remote="gh" revision="master" />
-    <!-- Sepolicy vendor -->
-    <project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" remote="gh" revision="lineage-22.1" />
-    <!-- Sepolicy vendor -->
-    <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="gh" revision="lineage-22.1" />
+    <project path="vendor/realme/even" name="cumaRull/vendor_realme_even" remote="gh" revision="twelve" />
     
-    
-
     </manifest>
