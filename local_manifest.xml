@@ -4,8 +4,12 @@
                     fetch="https://github.com/"
                     clone-depth="1" />         
     <!--Tree -->
-    <project path="device/realme/even" name="cumaRull/device_realme_even" remote="gh" revision="wip" />
+    <project path="device/realme/RMX3191" name="cumaRull/device_realme_RMX3191" remote="gh" revision="thirteen" />
     <!--Vendor -->
-    <project path="vendor/realme/even" name="cumaRull/vendor_realme_even" remote="gh" revision="twelve" />
+    <project path="vendor/realme/RMX3191" name="cumaRull/vendor_realme_RMX3191" remote="gh" revision="thirteen" />
+    <!-- Hardware Mediatek -->
+    <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="gh" revision="lineage-20" />
+    <!-- Sepolicy vndr -->
+    <project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" remote="gh" revision="lineage-20" />
     
     </manifest>
