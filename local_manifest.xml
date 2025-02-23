@@ -6,7 +6,7 @@
     <!--Tree -->
     <project path="device/realme/even" name="cumaRull/device_realme_even" remote="gh" revision="twelve" />
     <!--Vendor -->
-    <project path="vendor/realme/evenl" name="cumaRull/vendor_realme_even" remote="gh" revision="twelve" />
+    <project path="vendor/realme/even" name="cumaRull/vendor_realme_even" remote="gh" revision="twelve" />
     <!-- vendor ims -->
     <project path="vendor/realme/even-ims" name="eun0115/vendor_oplus_even-ims" remote="gh" revision="twelve-rmui2" />
     
