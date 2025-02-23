@@ -7,6 +7,9 @@
     <project path="device/realme/RMX3191" name="cumaRull/device_realme_RMX3191" remote="gh" revision="thirteen" />
     <!--Vendor -->
     <project path="vendor/realme/RMX3191" name="cumaRull/vendor_realme_RMX3191" remote="gh" revision="thirteen" />
+    <!-- vendor ims -->
+    <project path="vendor/realme/RMX3191-ims" name="cumaRull/vendor_realme_RMX3191-ims" remote="gh" revision="thirteen" />
+    
     <!-- Hardware Mediatek -->
     <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="gh" revision="lineage-20" />
     <!-- Sepolicy vndr -->
