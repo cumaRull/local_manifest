@@ -10,6 +10,6 @@
     <!-- vendor ims -->
     <project path="vendor/realme/even-ims" name="eun0115/vendor_oplus_even-ims" remote="gh" revision="twelve-rmui2" />
     <!-- Sepolicy vndr -->
-    <project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" remote="gh" revision="lineage-20" />
+    <project path="device/mediatek/sepolicy_vndr" name="cumaRull/device_mediatek_sepolicy_vndr" remote="gh" revision="twelve" />
     
     </manifest>
