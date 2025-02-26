@@ -12,5 +12,7 @@
     <project path="vendor/realme/RMX2020-ims" name="PixelOS-Devices/vendor_realme_RMX2020-ims" remote="gh" revision="fifteen" />
     <!-- Sepolicy vndr -->
     <project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" remote="gh" revision="lineage-22.1" />
+    <!-- Hardware Mediatek -->
+    <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="gh" revision="lineage-22.1" />
     
     </manifest>
