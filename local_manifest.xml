@@ -4,15 +4,18 @@
                     fetch="https://github.com/"
                     clone-depth="1" />         
     <!--Tree -->
-    <project path="device/realme/RMX2020" name="cumaRull/device_realme_RMX2020" remote="gh" revision="fifteen" />
-    <project path="kernel/realme/RMX2020" name="PixelOS-Devices/kernel_realme_RMX2020" remote="gh" revision="fifteen" />
+    <project path="device/realme/RMX3191" name="cumaRull/proprietary_device_realme_RMX3191" remote="gh" revision="lineage-20.0" />
+    <!-- Kernel -->
+    <project path="kernel/realme/RMX3191" name="cumaRull/kernel_realme_RMX3191" remote="gh" revision="master" />
     <!--Vendor -->
-    <project path="vendor/realme/RMX2020" name="PixelOS-Devices/vendor_realme_RMX2020" remote="gh" revision="fifteen" />
+    <project path="vendor/realme/RMX3191" name="cumaRull/vendor_realme_RMX3191" remote="gh" revision="lineage-20.0" />
     <!-- vendor ims -->
-    <project path="vendor/realme/RMX2020-ims" name="PixelOS-Devices/vendor_realme_RMX2020-ims" remote="gh" revision="fifteen" />
+    <project path="vendor/realme/RMX3191-ims" name="cumaRull/vendor_realme_RMX3191-ims" remote="gh" revision="thirteen" />
     <!-- Sepolicy vndr -->
-    <project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" remote="gh" revision="lineage-22.1" />
+    <project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" remote="gh" revision="lineage-20.0" />
     <!-- Hardware Mediatek -->
-    <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="gh" revision="lineage-22.1" />
+    <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="gh" revision="lineage-20.0" />
+    <!-- Clang -->
+    <project path="prebuilts/clang/host/linux-x86/proton-clang" name="picasso09/proton-clang" remote="gh" revision="master" />
     
     </manifest>
