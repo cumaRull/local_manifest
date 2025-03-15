@@ -6,7 +6,7 @@
     <!--Tree -->
     <project path="device/realme/RMX3191" name="cumaRull/proprietary_device_realme_RMX3191" remote="gh" revision="lineage-20.0" />
     <!-- Kernel -->
-    <project path="device/realme/RMX3191-kernel" name="cumaRull/device_realme_RMX3191-kernel" remote="gh" revision="rui2" />
+    <project path="kernel/realme/RMX3191" name="Realme-C25-Series-Development/kernel_realme_even" remote="gh" revision="even-rmui2" />
     <!--Vendor -->
     <project path="vendor/realme/RMX3191" name="cumaRull/vendor_realme_RMX3191" remote="gh" revision="lineage-20.0" />
     <!-- vendor ims -->
