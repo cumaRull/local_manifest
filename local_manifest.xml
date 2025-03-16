@@ -2,7 +2,10 @@
 <manifest>
     <remote name="gh"
                     fetch="https://github.com/"
-                    clone-depth="1" />         
+                    clone-depth="1" />
+    <remote name="gitlab"
+                    fetch="https://gitlab.com/"
+                    clone-depth="1" />
     <!--Tree -->
     <project path="device/realme/RMX3191" name="cumaRull/proprietary_device_realme_RMX3191" remote="gh" revision="lineage-20.0" />
     <!-- Kernel -->
@@ -16,6 +19,6 @@
     <!-- Hardware Mediatek -->
     <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="gh" revision="lineage-20" />
     <!-- Clang -->
-    <project path="prebuilts/clang/host/linux-x86/mylittleclang" name="clangsantoni/zyc_clang" remote="gh" revision="14" />
+    <project path="prebuilts/clang/host/linux-x86/mylittleclang" name="clangsantoni/zyc_clang" remote="gitlab" revision="14" />
     
     </manifest>
