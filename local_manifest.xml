@@ -6,7 +6,7 @@
     <!--Tree -->
     <project path="device/realme/RMX3191" name="cumaRull/device_realme_RMX3191" remote="gh" revision="rui4" />
     <!--Vendor -->
-    <project path="vendor/realme/RMX3191" name="cumaRull/proprietary_vendor_realme_RMX3191" remote="gh" revision="rui4-oss" />
+    <project path="vendor/realme/RMX3191" name="cumaRull/vendor_realme_RMX3191" remote="gh" revision="lineage-20.0" />
     <!-- vendor ims -->
     <project path="vendor/realme/RMX3191-ims" name="cumaRull/vendor_realme_RMX3191-ims" remote="gh" revision="thirteen" />
     <!-- vendor ims -->
